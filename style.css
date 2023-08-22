@@ -164,15 +164,11 @@ button:hover{
 }
 
 @media(max-width: 555px){
-    body{
-        overflow-x: hidden;
-    }
     .evrything{
         display: block;
         width: 350px;
         height: 900px;
-        margin-left: 20px;
-        margin-top: -50px;
+        margin-top: 50px;
         margin-bottom: 50px;
     }
     .left-side{
@@ -180,12 +176,16 @@ button:hover{
         margin-top: -30px;
         height: 450px;
     }
+    .right-side{
+        width: 350px;
+    }
     #left-heading{
         padding-top: 60px;
     }
     button{
         display: block;
-        margin-right: 160px;
+        margin: 0 auto;
+        margin-top: 40px;
     }
     .card, .card-2, .card-3, .card-4{
         width: 280px;
